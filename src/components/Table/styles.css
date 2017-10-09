@@ -1,0 +1,21 @@
+.table-container {
+  overflow-x: auto;
+  margin-bottom: 30px;
+}
+
+td {
+  border-bottom: solid #87cdee 1px;
+}
+
+th {
+  border: solid white 1px;
+}
+
+.new-button-table {
+  padding-left: 8px;
+}
+
+.btn-new {
+  color: #3fb0e4;
+  margin-right: 6px;
+}

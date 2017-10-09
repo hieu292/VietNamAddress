@@ -1,0 +1,86 @@
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700");
+
+body {
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 1.42857;
+    background: #333333;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+}
+.container-body {
+    min-height: 0;
+    width: 1000px;
+    color: #333333;
+    margin-top: 40px;
+    padding: 0;
+}
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-body > section {
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 10px;
+}
+
+.tabs-login {
+    background: #ffffff;
+    border: medium none;
+    margin-top: -1px;
+    padding: 10px 30px;
+    min-height: 550px;
+}
+.container-body h2 {
+    color: #ea533f;
+}
+.form-control {
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #999999;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+.container-body .checkbox {
+    margin-top: -15px;
+}
+.container-body button {
+    background-color: #ea533f;
+    border-color: #e73e28;
+    color: #ffffff;
+    border-radius: 0;
+    font-size: 18px;
+    line-height: 1.33;
+    padding: 10px 16px;
+    width: 100%;
+}
+.container-body button:hover,
+.container-body button:focus {
+    background: #de2f18;
+    border-color: #be2815;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

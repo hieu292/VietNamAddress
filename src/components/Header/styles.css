@@ -1,0 +1,32 @@
+#top-bar {
+display: inherit;
+}
+.nav-tabs.nav-justified {
+border-bottom: 0 none;
+width: 100%;
+}
+.nav-tabs.nav-justified > li {
+display: table-cell;
+width: 1%;
+float: none;
+}
+.container-body .nav-tabs.nav-justified > li > a,
+.container-body .nav-tabs.nav-justified > li > a:hover,
+.container-body .nav-tabs.nav-justified > li > a:focus {
+background: #ea533f;
+border: medium none;
+color: #ffffff;
+margin-bottom: 0;
+margin-right: 0;
+border-radius: 0;
+}
+.container-body .nav-tabs.nav-justified > .active > a,
+.container-body .nav-tabs.nav-justified > .active > a:hover,
+.container-body .nav-tabs.nav-justified > .active > a:focus {
+background: #ffffff;
+color: #333333;
+}
+.container-body .nav-tabs.nav-justified > li > a:hover,
+.container-body .nav-tabs.nav-justified > li > a:focus {
+background: #de2f18;
+}

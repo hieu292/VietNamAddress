@@ -1,0 +1,48 @@
+{
+  "name": "vietnam-address",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "firebase": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "history": "^4.7.2",
+    "immutable": "^3.8.1",
+    "json2csv": "^3.11.2",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-bootstrap": "^0.31.3",
+    "react-dom": "^15.6.1",
+    "react-places-autocomplete": "^5.4.3",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.0",
+    "react-router-redux": "^5.0.0-alpha.6",
+    "react-toastify": "^2.1.0",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.15.6",
+    "reselect": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "4.5.0",
+    "eslint-config-airbnb": "15.1.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
+    "eslint-plugin-react": "7.3.0",
+    "lint-staged": "^4.0.4",
+    "pre-commit": "^1.2.2",
+    "react-scripts": "1.0.11"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "lint": "npm run lint:js",
+    "lint:staged": "lint-staged",
+    "lint:js": "eslint --ext .js src/"
+  },
+  "pre-commit": "lint:staged",
+  "lint-staged": {
+    "*.js": "lint:js"
+  },
+  "proxy": "https://httpbin.org"
+}
